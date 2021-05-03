@@ -6,7 +6,7 @@ import (
 	"strconv"
 )
 
-func IntToString(a [3]int) [3]string {
+func IntToString(a [3]int) string {
 	var numbers = []string{ //initialization of numbers array
 		"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine",
 	}
@@ -35,7 +35,7 @@ func IntToString(a [3]int) [3]string {
 			}
 		}
 	}
-	return words
+	return words[0]+", "+words[1]+", "+words[2]
 }
 
 var one string
