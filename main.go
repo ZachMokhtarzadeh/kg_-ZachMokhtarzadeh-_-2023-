@@ -13,7 +13,7 @@ func IntToString(a [3]int) [3]string {
 
 	var words [len(a)]string
 
-	for i := 0; i<len(a); i++{
+	for i := 0; i<len(a); i++{ //cycles through the array
 
 		if a[i] <= 9{
 			words[i] = numbers[a[i]]
