@@ -7,7 +7,7 @@ import (
 )
 
 func IntToString(a [3]int) [3]string {
-	var numbers = []string{
+	var numbers = []string{ //initialization of numbers array
 		"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine",
 	}
 
